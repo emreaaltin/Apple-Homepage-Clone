@@ -1,0 +1,117 @@
+body,html{
+    height: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar{
+    width: 6px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+}
+.hero-image{
+  background: url(img/arkaplan.jpg);
+  position: relative;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav ul{
+  display: flex;
+  justify-content: center;
+}
+nav ul li{
+  list-style: none;
+  margin: 20px;
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  position: relative;
+  font-size: 11px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+nav ul li a:hover{
+  color: rgb(107, 107, 107);
+}
+nav ul li a::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 1px;
+  transition: width 0.5s ease-out;
+  background-color: rgb(255, 255, 255);
+
+}
+nav ul li a:hover::before{
+  width: 100%;
+  height: 1px;
+}
+.fa-brands{
+  color: white;
+}
+.hero-text{
+  margin-top: 2%;
+  font-size: 50px;
+}
+.hero-text .links{
+  font-size: 20px;
+}
+.kısım-1{
+  background: url(img/telefonlar.jpg);
+  position: relative;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.kısım-2{
+  background: url(img/turuncu.jpg);
+  position: relative;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.kısım-3 img{
+  width: 100%;
+}
+.kısım-3 p{
+  margin-top: 20%;
+  font-size: 35px;
+  margin-left: 32%;
+}
+.kısım-3 .logoluyazi{
+  margin-left: 35%;
+  margin-top: 10%;
+  font-size: 10px;
+}
+.kısım-3 .logoluyazi .yazip{
+  margin-left: 37%;
+  margin-top: 5%;
+  font-size: 12px;
+}
+.kısım-3 .logoluyazi .yazip2{
+  margin-left: 29%;
+  margin-top: 5%;
+  font-size: 12px;
+}
+.kısım-3 .logosuzyazi{
+  margin-left: 29%;
+  margin-top: 10%;
+  font-size: 50px;
+}
+footer{
+	background-color: rgb(20, 18, 18);
+}
+footer img{
+	width: 180px;
+}
+footer .row h3{
+	font-size: 25px;
+	font-weight: bold;
+}
